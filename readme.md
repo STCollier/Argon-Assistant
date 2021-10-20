@@ -1,6 +1,6 @@
 # Argon Assistant
 
-### Version 4 of a voice assistant created by STCollier.
+### Version 4 of a voice assistant that I created.
 
 ##### (Scroll down to the notes for the important stuff)
 
@@ -20,6 +20,3 @@ This is what it should look like:
 * Lastly, Argon Assistant needs mic-access for your voice, so open Argon in new tab (see link below) and click 'allow' for mic access. Argon will listen for around 10 seconds before the mic swtiches off again. 
 
 That's pretty much it! I know this is a pretty basic project to all of you advanced coders, and a lot could be improved, but nevertheless, I hope you enjoy this. It was a lot of fun for me to make :)
-
-
-~STCollier
