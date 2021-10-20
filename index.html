@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Dosis&display=swap" rel="stylesheet">
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Stencil+Display&display=swap" rel="stylesheet">
+   <link rel="icon" href="argon_icon.png">
+   <link rel="stylesheet" href="style.css">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+   <link rel="icon" href="argon_icon.png">
+   <title>Argon Assistant</title>
+</head>
+<body>
+   <div id='frame'></div>
+   <i style="font-size:30px; cursor:pointer; padding: 5px;" class="fa" id="myBtn">&#xf013;</i><br>
+   <h1>Argon Assistant<h1><br>
+   <input class="argon-input" type="text" name="" id="speechToText" placeholder="Speak Something" disabled="disabled"><br>
+   <i onclick="record()" value="play" class="fa" id="mic-icon">&#xf130;</i><br>
+   <p class="space-mic-prompt">(Or press 'space')<p>
+   <p id="output"></p>
+<div id="myModal" class="modal">
+  <div class="modal-content">
+    <span class="close">&times;</span>
+    <p>Nothing Here (Yet!)</p>
+    <button type="button" class="collapsible">Info</button>
+<div class="content">
+<p id="info">Argon v.4.0</p>
+<p class="details">Created by Samuel Collier.</p>
+<p class="details">Developed in the Summer of 2021</p>
+<p class="details">Thanks to the people and resources of Stack Overflow, Github, and W3 Schools.</p>
+<p class="details">Please be courteous with my code.</p>
+<p class="details">Thank you, and enjoy <em>Argon Assistant</em>.</p>
+</div>
+   <script src="https://code.responsivevoice.org/responsivevoice.js?key=x9uXdCB8"></script>
+   <script src="script.js"></script>
+</body>
+</html>
