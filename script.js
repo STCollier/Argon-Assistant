@@ -1,7 +1,7 @@
 let weather_now
 
 window.onload = function() {
-  fetch('https://api.openweathermap.org/data/2.5/weather?lat=42.5829395&lon=-83.2118381&units=imperial&appid=6a3b95f23e761e707120f86b0eed7d55')
+  fetch('https://api.openweathermap.org/data/2.5/weather?q=Detroit&units=imperial&appid=6a3b95f23e761e707120f86b0eed7d55')
     .then(response => response.json())
     .then(data => {
       let tempValue = data['main']['temp'];
